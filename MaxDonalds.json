@@ -468,5 +468,115 @@
     "Protein (g)":87,
     "Sodium (mg)":3600,
     "Price":10.34
+  },
+  {
+    "Name":"Small Soda",
+    "Type":"Drink",
+    "Calories":140,
+    "Total Fat (g)":0,
+    "Carbohydrates (g)":0,
+    "Protein (g)":0,
+    "Sodium (mg)":0,
+    "Price":1.15
+  },
+  {
+    "Name":"Medium Soda",
+    "Type":"Drink",
+    "Calories":200,
+    "Total Fat (g)":0,
+    "Carbohydrates (g)":0,
+    "Protein (g)":0,
+    "Sodium (mg)":0,
+    "Price":1.48
+  },
+  {
+    "Name":"Large Soda",
+    "Type":"Drink",
+    "Calories":280,
+    "Total Fat (g)":0,
+    "Carbohydrates (g)":0,
+    "Protein (g)":0,
+    "Sodium (mg)":0,
+    "Price":1.71
+  },
+  {
+    "Name":"Small Sweet Tea",
+    "Type":"Drink",
+    "Calories":150,
+    "Total Fat (g)":0,
+    "Carbohydrates (g)":0,
+    "Protein (g)":0,
+    "Sodium (mg)":10,
+    "Price":1.15
+  },
+  {
+    "Name":"Medium Sweet Tea",
+    "Type":"Drink",
+    "Calories":180,
+    "Total Fat (g)":0,
+    "Carbohydrates (g)":0,
+    "Protein (g)":0,
+    "Sodium (mg)":10,
+    "Price":1.48
+  },
+  {
+    "Name":"Small Frappe",
+    "Type":"Drink ",
+    "Calories":440,
+    "Total Fat (g)":18,
+    "Carbohydrates (g)":64,
+    "Protein (g)":7,
+    "Sodium (mg)":125,
+    "Price":2.75
+  },
+  {
+    "Name":"Medium Frappe",
+    "Type":"Drink",
+    "Calories":540,
+    "Total Fat (g)":22,
+    "Carbohydrates (g)":79,
+    "Protein (g)":9,
+    "Sodium (mg)":160,
+    "Price":3.32
+  },
+  {
+    "Name":"Large Frappe",
+    "Type":"Drink",
+    "Calories":670,
+    "Total Fat (g)":26,
+    "Carbohydrates (g)":97,
+    "Protein (g)":11,
+    "Sodium (mg)":190,
+    "Price":3.9
+  },
+  {
+    "Name":"Small Iced Coffee",
+    "Type":"Drink",
+    "Calories":130,
+    "Total Fat (g)":4.5,
+    "Carbohydrates (g)":22,
+    "Protein (g)":1,
+    "Sodium (mg)":35,
+    "Price":1.83
+  },
+  {
+    "Name":"Medium Iced Coffee",
+    "Type":"Drink",
+    "Calories":180,
+    "Total Fat (g)":7,
+    "Carbohydrates (g)":29,
+    "Protein (g)":1,
+    "Sodium (mg)":50,
+    "Price":2.06
+  },
+  {
+    "Name":"Large Iced Coffee",
+    "Type":"Drink",
+    "Calories":260,
+    "Total Fat (g)":9,
+    "Carbohydrates (g)":43,
+    "Protein (g)":2,
+    "Sodium (mg)":65,
+    "Price":2.29
   }
 ]
