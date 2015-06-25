@@ -103,17 +103,14 @@ print '''
      <script>
 
      $( document ).ready(function() {
-		
-		var burgers;
-		
+			
 '''
 
 #print "$.ajax({dataType: 'json', url: "+burger+",data: data, success: success});"
-
+#print burger
 
 		
 print '''
-
 		
 	});
 	
