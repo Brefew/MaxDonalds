@@ -12,13 +12,17 @@ print
 print '''
 
 <html>
-	<head>
-		<title>MaxDonald's</title>
-		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-	</head>
-</html>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-
+    <head>
+    <title>MaxDonald's</title>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://jquery-csv.googlecode.com/git/src/jquery.csv.js"></script>
+    <script>
+		$(document).ready(function() {
+            
+		
+		});
+	</script>
+    
 	<style>
 	body {
 		background-color: #DD1021;
@@ -26,9 +30,13 @@ print '''
 	}
 	
 	</style>
-'''
+
+        <script>
+
+        $( document ).ready(function() {
+        '''
 	
-	#data = []
+#data = []
 #data = json.loads(open('MaxDonalds.json').read())
 #pprint(data)
 
@@ -91,20 +99,60 @@ for i in range (0, r):
 
 #for i in burger:
 #	print burger[i]["Price"]
-				
-print '''
-	
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
-        <script>
-
-        $( document ).ready(function() {
-        '''
-		
+print burger
         
-'''	
+print '''	
 	</script>
 
+	</head>
+    
+    <body>
+	<center>
+	<p>
+	<font size = "10" face="verdana" color="yellow"><b>MaxDonald's<br>Get the Most out of Your Food!</b></font>
+	</p>
+	<input id='money' type='text' placeholder='How much will you spend?' name='money'><br>
+	
+	<br>
+
+	<p>
+	<font color="white">What are you looking to eat?</font>
+	</p>
+
+	<table>
+	  <tr>
+	    <td>
+	<input type="checkbox" name="Burger" value="burger">Burger
+	    </td>
+	    <td>
+	<input type="checkbox" name="Chicken" value="chicken">Chicken
+	    </td>
+	    <td>
+	<input type="checkbox" name="Fries" value="fries">Fries
+	    </td>
+	  </tr>
+	  <tr>
+	    <td>	
+	<input type="checkbox" name="Drink" value="drink">Drink
+	    </td>
+	    <td>
+	<input type="checkbox" name="Salad" value="salad">Salad	
+	    </td>
+	    <td>
+	<input type="checkbox" name="Dessert" value="dessert">Dessert
+	    </td>
+	  </tr>
+	</table>
+
+	<p></p>
+	<br>
+	<button type="button">Max your 'Donald's</button>
+
+	</center>
+    </body>
+</html>
+	
 '''
 
 
