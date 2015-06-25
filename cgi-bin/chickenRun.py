@@ -31,9 +31,6 @@ print '''
 	
 	</style>
 
-        <script>
-
-        $( document ).ready(function() {
         '''
 	
 #data = []
@@ -100,9 +97,24 @@ for i in range (0, r):
 #for i in burger:
 #	print burger[i]["Price"]
 
-print burger
+#print burger
         
 print '''	
+     <script>
+
+     $( document ).ready(function() {
+			
+'''
+
+#print "$.ajax({dataType: 'json', url: "+burger+",data: data, success: success});"
+#print burger
+
+		
+print '''
+		
+	});
+	
+	
 	</script>
 
 	</head>
