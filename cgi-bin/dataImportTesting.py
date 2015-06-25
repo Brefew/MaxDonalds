@@ -13,7 +13,7 @@ print '''
 
 <html>
 	<head>
-		<title>HW4 Carnes</title>
+		<title>MaxDonald's</title>
 		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 	</head>
 </html>
@@ -45,14 +45,52 @@ def byteify(input):
 response = urllib2.urlopen("file:MaxDonalds.json")
 stats = byteify(json.load(response))
 
-print stats[1]['Name'];
+drink = {}
+burger = {}
+chicken = {}
+fish = {}
+salad = {}
+dessert = {}
+fries = {}
 
+drCn = 0
+buCn = 0
+chCn = 0
+fiCn = 0
+saCn = 0
+deCn = 0
+frCn = 0
 
-#with open('MaxDonalds.json') as stats:
-#    data = json.loads(stats)
-		
-#pprint(data)
-		
+#print stats[4];
+
+r = len(stats);
+
+for i in range (0, r):
+#	print stats[i]["Name"] + "<br>"
+	if stats[i]["Type"] == "Drink":
+		drink[drCn] = stats[i]
+		drCn += 1
+	elif stats[i]["Type"] == "Burger":
+		burger[buCn] = stats[i]
+		buCn += 1
+	elif stats[i]["Type"] == "Chicken":
+		chicken[chCn] = stats[i]
+		chCn += 1
+	elif stats[i]["Type"] == "Fish":
+		fish[fiCn] = stats[i]
+		fiCn += 1
+	elif stats[i]["Type"] == "Salad":
+		salad[saCn] = stats[i]
+		saCn += 1
+	elif stats[i]["Type"] == "Dessert":
+		dessert[deCn] = stats[i]
+		deCn += 1
+	elif stats[i]["Type"] == "Fries":
+		fries[frCn] = stats[i]
+		frCn += 1
+
+for i in burger:
+	print burger[i]["Price"]
 				
 print '''
 	
