@@ -16,7 +16,7 @@
 		
 	}
 	
-	</style>	<script>function validateForm() {    var x = document.forms["myForm"]["fname"].value;    if (x == null || x == "") {        alert("You have to put some money You");        return false;    }	}</script>
+	</style>	<script>function validateForm() {    var x = document.forms["myForm"]["fname"].value;    if (x == null || x == "") {        alert("You have to put some money You");        return false;    }	if( x >=51 ){		alert("Sorry but the money has to be les then 50");		return false;	}}</script>
     
     </head>
     
