@@ -138,23 +138,38 @@ print '''
 print fries
 print '''
 ;
-		window.confirm(fries[2]["Type"]);
+        var count = 0;
+		for (property in fries)
+		{
+		    if(fries.hasOwnProperty(property))
+			{
+				count++;
+				//window.print(fries[property]);
+			}
+			//console.log(fries[property]);
+		}
+		window.confirm(count - 1);
+		
+		
 		
 	});
+	
 	
 	
 	</script>
 
 	</head>
     
-    <body>
+        <body>
 	<center>
 	<p>
 	<font size = "10" face="verdana" color="#FFCC00"><b>MaxDonald's<br>Get the Most out of Your Food!</b></font>
 	</p>
 	<input id='money' type='text' placeholder='How much will you spend?' name='money'><br>
+
+
 	
-	<br>
+
 
 	<p>
 	<font color="white">What are you looking to eat?</font>
@@ -163,31 +178,85 @@ print '''
 	<table>
 	  <tr>
 	    <td>
-	<input type="checkbox" name="Burger" value="burger">Burger
-	    </td>
+	<input type="checkbox" name="Burger" id="Burger" value="burger">Burger
+	    <div id="Burgerdiv" style="display:none">
+                Here's all the burgers we have listed:
+            </div>
+            <script type="text/javascript">
+                $('#Burger').change(function() {
+                    $('#Burgerdiv').toggle();
+                });
+            </script>
+            </td>
 	    <td>
-	<input type="checkbox" name="Chicken" value="chicken">Chicken
-	    </td>
+	<input type="checkbox" name="Chicken" id="Chicken" value="chicken">Chicken
+            <div id="Chickendiv" style="display:none">
+                Here's all the chicken items we have listed:
+            </div>
+            <script type="text/javascript">
+                $('#Chicken').change(function() {
+                    $('#Chickendiv').toggle();
+                });
+            </script>
+            </td>
 	    <td>
-	<input type="checkbox" name="Fries" value="fries">Fries
-	    </td>
+	<input type="checkbox" name="Fries" id="Fries" value="fries">Fries
+            <div id="Friesdiv" style="display:none">
+                Here's all the fries we have listed:
+            </div>
+            <script type="text/javascript">
+                $('#Fries').change(function() {
+                    $('#Friesdiv').toggle();
+                });
+            </script>
+  
+          </td>
 	  </tr>
 	  <tr>
 	    <td>	
-	<input type="checkbox" name="Drink" value="drink">Drink
-	    </td>
+	<input type="checkbox" name="Drink" id="Drink" value="drink">Drink
+            <div id="Drinkdiv" style="display:none">
+                Here's all the drinks we have listed:
+            </div>
+            <script type="text/javascript">
+                $('#Drink').change(function() {
+                    $('#Drinkdiv').toggle();
+                });
+            </script>
+    
+            </td>
 	    <td>
-	<input type="checkbox" name="Salad" value="salad">Salad	
-	    </td>
+	<input type="checkbox" name="Salad" id="Salad" value="salad">Salad	
+            <div id="Saladdiv" style="display:none">
+                Here's all the salads we have listed:
+            </div>
+            <script type="text/javascript">
+                $('#Salad').change(function() {
+                    $('#Saladdiv').toggle();
+                });
+            </script>
+
+            </td>
 	    <td>
-	<input type="checkbox" name="Dessert" value="dessert">Dessert
-	    </td>
+	<input type="checkbox" name="Dessert" id="Dessert" value="dessert">Dessert
+            <div id="Dessertdiv" style="display:none">
+                Here's all the desserts we have listed:
+            </div>
+            <script type="text/javascript">
+                $('#Dessert').change(function() {
+                    $('#Dessertdiv').toggle();
+                });
+            </script>
+  
+          </td>
 	  </tr>
 	</table>
 
 	<p></p>
 	<br>
-	<button type="button">Max your 'Donald's</button>
+	<button type="button">Max your 'Donald's</button><br><br>
+
+	<img src="Logo.png" height="200" width="250">
 
 	</center>
     </body>
