@@ -29,16 +29,7 @@
 
 <div id=moneyDiv style="display:none;">You must enter a valid amount from 0 to 50</div>
 
-	<input type="text" name="money" id="money" placeholder="How much do will you spend?" onblur="checkField(this);" />
-<script>
-function checkField(field) {
-	if(field.value == '' || field.value <= 0 || field.value > 50) {
-		document.getElementById('moneyDiv').style.display = "block";
-	}
-}
-</script>
-	
-
+	<input type="text" name="money" id="money" placeholder="How much do will you spend?" />
 
 	<p>
 	<font color="white">What are you looking to eat?</font>
@@ -124,12 +115,16 @@ function checkField(field) {
 	<p></p>
 	<br>
 
+<div id="blankDiv" style="display:none;"></div>
+
 	<div id="buttonDiv" style="display:none;">Hello World!</div>
-	<button onclick="myFunction()">Maximize</button><br><br>
+	<button onclick="myFunction(document.getElementById('money').value)">Maximize your McDonald's</button><br><br>
 
 	<script>
-	function myFunction() {
-		document.getElementById('buttonDiv').style.display = "block";
+	function myFunction(field) {
+		if(field == '' || field <= 0 || field > 50) {
+			document.getElementById('moneyDiv').style.display = "block";	
+		}
 	}
 	</script>
 
