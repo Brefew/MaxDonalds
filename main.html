@@ -16,15 +16,15 @@
 		
 	}
 	
-	</style>
+	</style>	<script>function validateForm() {    var x = document.forms["myForm"]["fname"].value;    if (x == null || x == "") {        alert("You have to put some money You");        return false;    }	}</script>
     
     </head>
     
-    <body>
-	<p>
+    <body>			
+	<p>	
 	<font size = "10" face="verdana" color="yellow"><b>Maxdonalds - Get the Most out of Your Food!</b></font>
-	</p>
-	<input id='money' type='text' placeholder='How much will you spend?' name='money'><button type="button">Maximize your McDonald's</button>
+	</p>	<form name="myForm" action=""	onsubmit="return validateForm()" method="get">
+	<input id='money' type='text' name="fname" placeholder='How much will you spend?' name='money'>	<input type="submit" value="Maximize your McDonald's">	</form>	
 	<p>What are you looking to eat?</p>
 	<input type="checkbox" name="Burger" value="burger">Burger
 	
