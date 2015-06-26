@@ -21,13 +21,22 @@
     </head>
     
     <body>
+
 	<center>
 	<p>
 	<font size = "10" face="verdana" color="yellow"><b>MaxDonald's<br>Get the Most out of Your Food!</b></font>
 	</p>
-	<input id='money' type='text' placeholder='How much will you spend?' name='money'><br>
 
+<div id=moneyDiv style="display:none;">You must enter a valid amount from 0 to 50</div>
 
+	<input type="text" name="money" id="money" placeholder="How much do will you spend?" onblur="checkField(this);" />
+<script>
+function checkField(field) {
+	if(field.value == '' || field.value <= 0 || field.value > 50) {
+		document.getElementById('moneyDiv').style.display = "block";
+	}
+}
+</script>
 	
 
 
@@ -114,7 +123,15 @@
 
 	<p></p>
 	<br>
-	<button type="button">Max your 'Donald's</button><br><br>
+
+	<div id="buttonDiv" style="display:none;">Hello World!</div>
+	<button onclick="myFunction()">Maximize</button><br><br>
+
+	<script>
+	function myFunction() {
+		document.getElementById('buttonDiv').style.display = "block";
+	}
+	</script>
 
 	<img src="Logo.png" height="200" width="250">
 
