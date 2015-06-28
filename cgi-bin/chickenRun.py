@@ -148,7 +148,14 @@ print '''
 			}
 			//console.log(fries[property]);
 		}
-		window.confirm(count - 1);
+		//window.confirm(count - 1);
+		
+		var bT = document.getElementById("burgerTable");
+		var row = bT.insertRow(0);
+		var cell1 = row.insertCell(0);
+		cell1.innerHTML = "New Cell1";
+		
+		
 		
 		
 		
@@ -181,6 +188,10 @@ print '''
 	<input type="checkbox" name="Burger" id="Burger" value="burger">Burger
 	    <div id="Burgerdiv" style="display:none">
                 Here's all the burgers we have listed:
+					<div style="display:table;">
+						<table id="burgerTable" style="margin:5px;">
+						</table>
+					</div>
             </div>
             <script type="text/javascript">
                 $('#Burger').change(function() {
