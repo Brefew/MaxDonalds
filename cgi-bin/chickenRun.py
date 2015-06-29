@@ -28,7 +28,14 @@ print '''
 		border: 1px solid black;
 		border-collapse: collapse;
 		font-size: 1em;
+		padding-right: 10px;
+		padding-left: 1px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+		white-space:nowrap;
+		color: yellow;
 	}
+
 	
 	#burgerData, #chickenData, #fryData, #drinkData, #saladData, #saladData, #dessertData, #fishData {
 			border: none;
@@ -36,6 +43,7 @@ print '''
 			font-size: 100%;
 			padding-right: 15;
 			padding-left: 5;
+			color: black;
 		}
 	
 	
@@ -214,12 +222,38 @@ print '''
 		//var bD = document.getElementById("burger");
 		
 		var bT = document.getElementById("burgerTable");
+		var cT = document.getElementById("chickenTable");
+		var frT = document.getElementById("fryTable");
+		var drT = document.getElementById("drinkTable");
+		var sT = document.getElementById("saladTable");
+		var deT = document.getElementById("dessertTable");
+		var fiT = document.getElementById("fishTable");
 		
-		/*function fillTable(targetDiv, data, index) {
+		/*function fillTable(targetDiv0, data0, index0,
+								targetDiv, data, index) {
+				for (var i = 1; i == index0; i++)
+					{
+						var row0 = targetDiv0.insertRow(i);
+						var cell0 = row0.insertCell(0);
+						cell0.innerHTML = JSON.stringify(data0[i]["Name"]);
+						var cell1 = row0.insertCell(1);
+						cell1.innerHTML = data0[i]["Calories"];
+						var cell2 = row0.insertCell(2);
+						cell2.innerHTML = data0[i]["Total Fat (g)"];
+						var cell3 = row0.insertCell(3);
+						cell3.innerHTML = data0[i]["Carbohydrates (g)"];
+						var cell4 = row0.insertCell(4);
+						cell4.innerHTML = data0[i]["Protein (g)"];
+						var cell5 = row0.insertCell(5);
+						cell5.innerHTML = data0[i]["Sodium (mg)"];
+						var cell6 = row0.insertCell(6);
+						cell6.innerHTML = data0[i]["Price"];
+					}
+					
 				for (var i = 1; i == index; i++)
 					{
 						var row = targetDiv.insertRow(i);
-						var cell0 = row.insertCell(0);
+						var cell = row.insertCell(0);
 						cell0.innerHTML = JSON.stringify(data[i]["Name"]);
 						var cell1 = row.insertCell(1);
 						cell1.innerHTML = data[i]["Calories"];
@@ -241,25 +275,33 @@ print '''
 				}*/
 				
 			function otherTry(targetDiv, foodData, cap) {
-					
-					for(i = 1; i <= cap; i++)
-					{
-					var row = targetDiv.insertRow(1);
-					var cell0 = row.insertCell(0);
-					cell0.innerHTML = JSON.stringify(foodData[cap-i]["Name"]);
-					var cell1 = row.insertCell(1);
-					cell1.innerHTML = JSON.stringify(foodData[cap-i]["Calories"]);
-					var cell2 = row.insertCell(2);
-					cell2.innerHTML = JSON.stringify(foodData[cap-i]["Total Fat (g)"]);
-					var cell3 = row.insertCell(3);
-					cell3.innerHTML = JSON.stringify(foodData[cap-i]["Carbohydrates (g)"]);
-					var cell4 = row.insertCell(4);
-					cell4.innerHTML = JSON.stringify(foodData[cap-i]["Protein (g)"]);
-					var cell5 = row.insertCell(5);
-					cell5.innerHTML = JSON.stringify(foodData[cap-i]["Sodium (mg)"]);
-					var cell6 = row.insertCell(6);
-					cell6.innerHTML = JSON.stringify(foodData[cap-i]["Price"]);
-					}
+					var i = 1;
+						
+					for(i = 1; i < cap; i++)
+						{
+						var row = targetDiv.insertRow(1);
+						var cell0 = row.insertCell(0);
+						cell0.innerHTML = foodData[cap-i]["Name"];
+						var cell1 = row.insertCell(1);
+						cell1.innerHTML = JSON.stringify(foodData[cap-i]["Calories"]);
+						var cell2 = row.insertCell(2);
+						cell2.innerHTML = JSON.stringify(foodData[cap-i]["Total Fat (g)"]);
+						var cell3 = row.insertCell(3);
+						cell3.innerHTML = JSON.stringify(foodData[cap-i]["Carbohydrates (g)"]);
+						var cell4 = row.insertCell(4);
+						cell4.innerHTML = JSON.stringify(foodData[cap-i]["Protein (g)"]);
+						var cell5 = row.insertCell(5);
+						cell5.innerHTML = JSON.stringify(foodData[cap-i]["Sodium (mg)"]);
+						var cell6 = row.insertCell(6);
+						cell6.innerHTML = JSON.stringify(foodData[cap-i]["Price"]);
+						if (i == (cap-1)){
+							break;
+						}
+						}
+						
+					//var bRow = bT.insertRow(1);
+					//var bCell = bRow.insertCell(0);
+					//bCell.innerHTML = "DO SOMETHING";
 					
 			}
 			
@@ -271,7 +313,13 @@ print '''
 			//var total = 11;
 			//document.write(buCn);
 			otherTry(bT, burger, buCn);
-		
+			otherTry(cT, chicken, chCn);
+			otherTry(frT, fries, frCn);
+			otherTry(drT, drink, drCn);
+			otherTry(sT, salad, saCn);
+			otherTry(deT, dessert, deCn);
+			otherTry(fiT, fish, fiCn);
+			
 		//var row = bT.insertRow(1);
 		//var cell1 = row.insertCell(4);
 		//cell1.innerHTML = "New Cell1";
@@ -314,7 +362,7 @@ print '''
 					<div style="display:table;">
 						<table id="burgerTable" style="width:30%">
 							<tr>
-								<td><b>Name</b></td>
+								<td class="block"><b>Name</b></td>
 								<td><b>Calories</b></td>
 								<td><b>Total Fat(g)</b></td>
 								<td><b>Carbs(g)</b></td>
