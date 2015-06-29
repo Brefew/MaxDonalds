@@ -441,10 +441,20 @@ print '''
 
 	<script>
 	function myFunction(field) {
+		//var burgerCheck = document.getElementById("Burger").checked;
+		
+		
 		if(isNaN(field) || field <= 0 || field > 50) {
 			document.getElementById('moneyDiv').style.display = "block";
 			return(false);
 		}
+		
+		
+		else if(field == ""){
+			//document.getElementById('moneyDiv').innerHTML = burgerCheck;
+		}
+		
+		
 	}
 	</script>
 
