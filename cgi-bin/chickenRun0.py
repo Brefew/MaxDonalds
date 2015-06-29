@@ -16,18 +16,42 @@ print '''
     <title>MaxDonald's</title>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="http://jquery-csv.googlecode.com/git/src/jquery.csv.js"></script>
-    <script>
-		$(document).ready(function() {
-            
-		
-		});
-	</script>
+
     
 	<style>
 	body {
 		background-color: #DD1021;
-		
+		font-size: 2em;	
 	}
+	
+	th, td, tr {
+		border: 1px solid black;
+		border-collapse: collapse;
+		font-size: 1em;
+		padding-right: 10px;
+		padding-left: 1px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+		white-space:nowrap;
+		color: yellow;
+	}
+
+	
+	#burgerData, #chickenData, #fryData, #drinkData, #saladData, #saladData, #dessertData, #fishData {
+			border: none;
+			border-collapse: collapse;
+			font-size: 100%;
+			padding-right: 15;
+			padding-left: 5;
+			color: black;
+		}
+	
+	
+	
+	#burgerTable, #chickenTable, #fryTable, #drinkTable, #saladTable, #dessertTable, #fishTable {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
 	
 	</style>
 
@@ -58,13 +82,13 @@ salad = {}
 dessert = {}
 fries = {}
 
-drCn = 0
-buCn = 0
-chCn = 0
-fiCn = 0
-saCn = 0
-deCn = 0
-frCn = 0
+drCn = 1
+buCn = 1
+chCn = 1
+fiCn = 1
+saCn = 1
+deCn = 1
+frCn = 1
 
 #print stats[4];
 
@@ -138,56 +162,328 @@ print '''
 print fries
 print '''
 ;
-		window.confirm(fries[2]["Type"]);
+
+
+
+		var drCn =
+'''
+print drCn
+print '''
+;
+		var buCn =
+'''
+print buCn
+print '''
+;
+		var chCn =
+'''
+print chCn
+print '''
+;
+		var fiCn =
+'''
+print fiCn
+print '''
+;
+		var saCn =
+'''
+print saCn
+print '''
+;
+		var deCn =
+'''
+print deCn
+print '''
+;
+		var frCn =
+'''
+print frCn
+print '''
+;
+
+        var count = 0;
+		for (property in fries)
+		{
+		    if(fries.hasOwnProperty(property))
+			{
+				count++;
+				//console.log(fries[property]);
+			}
+			//document.write(JSON.stringify(fries[3]["Protein (g)"]));
+			//document.write(buCn);
+		}
+		//window.confirm(count - 1);
+		
+		
+		//var bD = document.getElementById("burger");
+		
+		var bT = document.getElementById("burgerTable");
+		var cT = document.getElementById("chickenTable");
+		var frT = document.getElementById("fryTable");
+		var drT = document.getElementById("drinkTable");
+		var sT = document.getElementById("saladTable");
+		var deT = document.getElementById("dessertTable");
+		var fiT = document.getElementById("fishTable");
+		
+		
+			function otherTry(targetDiv, foodData, cap) {
+					var i = 1;
+						
+					for(i = 1; i < cap; i++)
+						{
+						var row = targetDiv.insertRow(1);
+						var cell0 = row.insertCell(0);
+						cell0.innerHTML = foodData[cap-i]["Name"];
+						var cell1 = row.insertCell(1);
+						cell1.innerHTML = JSON.stringify(foodData[cap-i]["Calories"]);
+						var cell2 = row.insertCell(2);
+						cell2.innerHTML = JSON.stringify(foodData[cap-i]["Total Fat (g)"]);
+						var cell3 = row.insertCell(3);
+						cell3.innerHTML = JSON.stringify(foodData[cap-i]["Carbohydrates (g)"]);
+						var cell4 = row.insertCell(4);
+						cell4.innerHTML = JSON.stringify(foodData[cap-i]["Protein (g)"]);
+						var cell5 = row.insertCell(5);
+						cell5.innerHTML = JSON.stringify(foodData[cap-i]["Sodium (mg)"]);
+						var cell6 = row.insertCell(6);
+						cell6.innerHTML = JSON.stringify(foodData[cap-i]["Price"]);
+						if (i == (cap-1)){
+							break;
+						}
+						}
+						
+					//var bRow = bT.insertRow(1);
+					//var bCell = bRow.insertCell(0);
+					//bCell.innerHTML = "DO SOMETHING";
+					
+			}
+			
+			//var bRow = bT.insertRow(1);
+			//var bCell = bRow.insertCell(0);
+			//bCell.innerHTML = "stuff1";
+			//document.write(JSON.stringify(burger));
+			
+			//var total = 11;
+			//document.write(buCn);
+			otherTry(bT, burger, buCn);
+			otherTry(cT, chicken, chCn);
+			otherTry(frT, fries, frCn);
+			otherTry(drT, drink, drCn);
+			otherTry(sT, salad, saCn);
+			otherTry(deT, dessert, deCn);
+			otherTry(fiT, fish, fiCn);
+			
+		//var row = bT.insertRow(1);
+		//var cell1 = row.insertCell(4);
+		//cell1.innerHTML = "New Cell1";
+		
+		
+		//fillTable(bT, burger, buCn);
+		
+		
+		
 		
 	});
+	
 	
 	
 	</script>
 
 	</head>
     
-    <body>
+        <body>
 	<center>
-	<p>
+	<p id="Header">
 	<font size = "10" face="verdana" color="#FFCC00"><b>MaxDonald's<br>Get the Most out of Your Food!</b></font>
 	</p>
 	<input id='money' type='text' placeholder='How much will you spend?' name='money'><br>
+
+
 	
-	<br>
+
 
 	<p>
 	<font color="white">What are you looking to eat?</font>
 	</p>
 
-	<table>
-	  <tr>
-	    <td>
-	<input type="checkbox" name="Burger" value="burger">Burger
-	    </td>
-	    <td>
-	<input type="checkbox" name="Chicken" value="chicken">Chicken
-	    </td>
-	    <td>
-	<input type="checkbox" name="Fries" value="fries">Fries
-	    </td>
+	<table id="stats">
+	  <tr id="topRow">
+	    <td id="burgerData">
+	<input type="checkbox" name="Burger" id="Burger" value="burger">Burger
+	    <div id="Burgerdiv" style="display:none">
+                <i>Here's all the burgers we have listed:</i>
+					<div style="display:table;">
+						<table id="burgerTable" style="width:30%">
+							<tr>
+								<td class="block"><b>Name</b></td>
+								<td><b>Calories</b></td>
+								<td><b>Total Fat(g)</b></td>
+								<td><b>Carbs(g)</b></td>
+								<td><b>Protein(g)</b></td>
+								<td><b>Sodium(mg)</b></td>
+								<td><b>Price</b></td>
+						</table>
+					</div>
+            </div>
+            <script type="text/javascript">
+                $('#Burger').change(function() {
+                    $('#Burgerdiv').toggle();
+                });
+            </script>
+            </td>
+	    <td id="chickenData">
+	<input type="checkbox" name="Chicken" id="Chicken" value="chicken">Chicken
+            <div id="Chickendiv" style="display:none">
+                Here's all the chicken items we have listed:
+					<div style="display:table;">
+						<table id="chickenTable" style="width:30%">
+							<tr>
+								<td><b>Name</b></td>
+								<td><b>Calories</b></td>
+								<td><b>Total Fat(g)</b></td>
+								<td><b>Carbs(g)</b></td>
+								<td><b>Protein(g)</b></td>
+								<td><b>Sodium(mg)</b></td>
+								<td><b>Price</b></td>
+						</table>
+					</div>
+            </div>
+            <script type="text/javascript">
+                $('#Chicken').change(function() {
+                    $('#Chickendiv').toggle();
+                });
+            </script>
+            </td>
+	    <td id="fryData">
+	<input type="checkbox" name="Fries" id="Fries" value="fries">Fries
+            <div id="Friesdiv" style="display:none">
+                Here's all the fries we have listed:
+					<div style="display:table;">
+						<table id="fryTable" style="width:30%">
+							<tr>
+								<td><b>Name</b></td>
+								<td><b>Calories</b></td>
+								<td><b>Total Fat(g)</b></td>
+								<td><b>Carbs(g)</b></td>
+								<td><b>Protein(g)</b></td>
+								<td><b>Sodium(mg)</b></td>
+								<td><b>Price</b></td>
+						</table>
+					</div>
+            </div>
+            <script type="text/javascript">
+                $('#Fries').change(function() {
+                    $('#Friesdiv').toggle();
+                });
+            </script>
+  
+          </td>
 	  </tr>
-	  <tr>
-	    <td>	
-	<input type="checkbox" name="Drink" value="drink">Drink
-	    </td>
-	    <td>
-	<input type="checkbox" name="Salad" value="salad">Salad	
-	    </td>
-	    <td>
-	<input type="checkbox" name="Dessert" value="dessert">Dessert
-	    </td>
+	  <tr id="secondRow">
+	    <td id="drinkData">	
+	<input type="checkbox" name="Drink" id="Drink" value="drink">Drink
+            <div id="Drinkdiv" style="display:none">
+                Here's all the drinks we have listed:
+					<div style="display:table;">
+						<table id="drinkTable" style="width:30%">
+							<tr>
+								<td><b>Name</b></td>
+								<td><b>Calories</b></td>
+								<td><b>Total Fat(g)</b></td>
+								<td><b>Carbs(g)</b></td>
+								<td><b>Protein(g)</b></td>
+								<td><b>Sodium(mg)</b></td>
+								<td><b>Price</b></td>
+						</table>
+					</div>
+            </div>
+            <script type="text/javascript">
+                $('#Drink').change(function() {
+                    $('#Drinkdiv').toggle();
+                });
+            </script>
+    
+            </td>
+	    <td id="saladData">
+	<input type="checkbox" name="Salad" id="Salad" value="salad">Salad	
+            <div id="Saladdiv" style="display:none">
+                Here's all the salads we have listed:
+					<div style="display:table;">
+						<table id="saladTable" style="width:30%">
+							<tr>
+								<td><b>Name</b></td>
+								<td><b>Calories</b></td>
+								<td><b>Total Fat(g)</b></td>
+								<td><b>Carbs(g)</b></td>
+								<td><b>Protein(g)</b></td>
+								<td><b>Sodium(mg)</b></td>
+								<td><b>Price</b></td>
+						</table>
+					</div>
+            </div>
+            <script type="text/javascript">
+                $('#Salad').change(function() {
+                    $('#Saladdiv').toggle();
+                });
+            </script>
+
+            </td>
+	    <td id="dessertData">
+	<input type="checkbox" name="Dessert" id="Dessert" value="dessert">Dessert
+            <div id="Dessertdiv" style="display:none">
+                Here's all the desserts we have listed:
+					<div style="display:table;">
+						<table id="dessertTable" style="width:30%">
+							<tr>
+								<td><b>Name</b></td>
+								<td><b>Calories</b></td>
+								<td><b>Total Fat(g)</b></td>
+								<td><b>Carbs(g)</b></td>
+								<td><b>Protein(g)</b></td>
+								<td><b>Sodium(mg)</b></td>
+								<td><b>Price</b></td>
+						</table>
+					</div>
+            </div>
+            <script type="text/javascript">
+                $('#Dessert').change(function() {
+                    $('#Dessertdiv').toggle();
+                });
+            </script>
+  
+          </td>
 	  </tr>
+	  <tr id="thirdRow">
+	    <td id="fishData">	
+	<input type="checkbox" name="Fish" id="Fish" value="fish">Fish
+            <div id="Fishdiv" style="display:none">
+                Here's all the fish items we have listed:
+					<div style="display:table;">
+						<table id="fishTable" style="width:30%">
+							<tr>
+								<td><b>Name</b></td>
+								<td><b>Calories</b></td>
+								<td><b>Total Fat(g)</b></td>
+								<td><b>Carbs(g)</b></td>
+								<td><b>Protein(g)</b></td>
+								<td><b>Sodium(mg)</b></td>
+								<td><b>Price</b></td>
+						</table>
+					</div>
+            </div>
+            <script type="text/javascript">
+                $('#Fish').change(function() {
+                    $('#Fishdiv').toggle();
+                });
+            </script>
+            </td>
+		</tr>
 	</table>
 
 	<p></p>
 	<br>
-	<button type="button">Max your 'Donald's</button>
+	<button type="button">Max your 'Donald's</button><br><br>
+
+	<img src="Logo.png" height="200" width="250">
 
 	</center>
     </body>
