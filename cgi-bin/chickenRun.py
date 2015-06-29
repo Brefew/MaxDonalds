@@ -278,11 +278,10 @@ print '''
 	<p id="Header">
 	<font size = "10" face="verdana" color="#FFCC00"><b>MaxDonald's<br>Get the Most out of Your Food!</b></font>
 	</p>
+
+<div id=moneyDiv style="display:none;">You must enter a valid amount from 0 to 50</div>
+
 	<input id='money' type='text' placeholder='How much will you spend?' name='money'><br>
-
-
-	
-
 
 	<p>
 	<font color="white">What are you looking to eat?</font>
@@ -439,8 +438,20 @@ print '''
 
 	<p></p>
 	<br>
-	<button type="button">Max your 'Donald's</button><br><br>
+
+	<script>
+	function myFunction(field) {
+		if(isNaN(field) || field <= 0 || field > 50) {
+			document.getElementById('moneyDiv').style.display = "block";
+			return(false);
+		}
+	}
+	</script>
+
+	<button onclick="myFunction(document.getElementById('money').value)">Max your 'Donald's</button><br>
 	
+	
+
 	<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 	<!-- Created with Inkscape (http://www.inkscape.org/) -->
 	<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="534.31348" height="505.01907" id="svg2" version="1.1" inkscape:version="0.48.4 r9939" sodipodi:docname="New document 1">
