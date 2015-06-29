@@ -37,7 +37,7 @@ print '''
 	}
 
 	
-	#burgerData, #chickenData, #fryData, #drinkData, #saladData, #saladData, #dessertData, #fishData {
+	#burgerData, #chickenData, #fryData, #drinkData, #saladData, #saladData, #dessertData {
 			border: none;
 			border-collapse: collapse;
 			font-size: 100%;
@@ -48,7 +48,7 @@ print '''
 	
 	
 	
-	#burgerTable, #chickenTable, #fryTable, #drinkTable, #saladTable, #dessertTable, #fishTable {
+	#burgerTable, #chickenTable, #fryTable, #drinkTable, #saladTable, #dessertTable {
 			border: 1px solid black;
 			border-collapse: collapse;
 		}
@@ -77,7 +77,6 @@ stats = byteify(json.load(response))
 drink = {}
 burger = {}
 chicken = {}
-fish = {}
 salad = {}
 dessert = {}
 fries = {}
@@ -85,7 +84,6 @@ fries = {}
 drCn = 1
 buCn = 1
 chCn = 1
-fiCn = 1
 saCn = 1
 deCn = 1
 frCn = 1
@@ -105,9 +103,6 @@ for i in range (0, r):
 	elif stats[i]["Type"] == "Chicken":
 		chicken[chCn] = stats[i]
 		chCn += 1
-	elif stats[i]["Type"] == "Fish":
-		fish[fiCn] = stats[i]
-		fiCn += 1
 	elif stats[i]["Type"] == "Salad":
 		salad[saCn] = stats[i]
 		saCn += 1
@@ -142,11 +137,6 @@ print '''
 print chicken
 print '''
 ;
-		var fish =
-'''
-print fish
-print '''
-;
 		var salad =
 '''
 print salad
@@ -178,11 +168,6 @@ print '''
 		var chCn =
 '''
 print chCn
-print '''
-;
-		var fiCn =
-'''
-print fiCn
 print '''
 ;
 		var saCn =
@@ -223,7 +208,6 @@ print '''
 		var drT = document.getElementById("drinkTable");
 		var sT = document.getElementById("saladTable");
 		var deT = document.getElementById("dessertTable");
-		var fiT = document.getElementById("fishTable");
 		
 		
 			function otherTry(targetDiv, foodData, cap) {
@@ -270,7 +254,6 @@ print '''
 			otherTry(drT, drink, drCn);
 			otherTry(sT, salad, saCn);
 			otherTry(deT, dessert, deCn);
-			otherTry(fiT, fish, fiCn);
 			
 		//var row = bT.insertRow(1);
 		//var cell1 = row.insertCell(4);
@@ -452,31 +435,6 @@ print '''
   
           </td>
 	  </tr>
-	  <tr id="thirdRow">
-	    <td id="fishData">	
-	<input type="checkbox" name="Fish" id="Fish" value="fish">Fish
-            <div id="Fishdiv" style="display:none">
-                Here's all the fish items we have listed:
-					<div style="display:table;">
-						<table id="fishTable" style="width:30%">
-							<tr>
-								<td><b>Name</b></td>
-								<td><b>Calories</b></td>
-								<td><b>Total Fat(g)</b></td>
-								<td><b>Carbs(g)</b></td>
-								<td><b>Protein(g)</b></td>
-								<td><b>Sodium(mg)</b></td>
-								<td><b>Price</b></td>
-						</table>
-					</div>
-            </div>
-            <script type="text/javascript">
-                $('#Fish').change(function() {
-                    $('#Fishdiv').toggle();
-                });
-            </script>
-            </td>
-		</tr>
 	</table>
 
 	<p></p>
