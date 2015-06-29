@@ -201,10 +201,6 @@ print frCn
 print '''
 ;
 
-		/*burger.sort(function(a, b){
-			return a.id - b.id
-		});*/
-
         var count = 0;
 		for (property in fries)
 		{
@@ -229,51 +225,7 @@ print '''
 		var deT = document.getElementById("dessertTable");
 		var fiT = document.getElementById("fishTable");
 		
-		/*function fillTable(targetDiv0, data0, index0,
-								targetDiv, data, index) {
-				for (var i = 1; i == index0; i++)
-					{
-						var row0 = targetDiv0.insertRow(i);
-						var cell0 = row0.insertCell(0);
-						cell0.innerHTML = JSON.stringify(data0[i]["Name"]);
-						var cell1 = row0.insertCell(1);
-						cell1.innerHTML = data0[i]["Calories"];
-						var cell2 = row0.insertCell(2);
-						cell2.innerHTML = data0[i]["Total Fat (g)"];
-						var cell3 = row0.insertCell(3);
-						cell3.innerHTML = data0[i]["Carbohydrates (g)"];
-						var cell4 = row0.insertCell(4);
-						cell4.innerHTML = data0[i]["Protein (g)"];
-						var cell5 = row0.insertCell(5);
-						cell5.innerHTML = data0[i]["Sodium (mg)"];
-						var cell6 = row0.insertCell(6);
-						cell6.innerHTML = data0[i]["Price"];
-					}
-					
-				for (var i = 1; i == index; i++)
-					{
-						var row = targetDiv.insertRow(i);
-						var cell = row.insertCell(0);
-						cell0.innerHTML = JSON.stringify(data[i]["Name"]);
-						var cell1 = row.insertCell(1);
-						cell1.innerHTML = data[i]["Calories"];
-						var cell2 = row.insertCell(2);
-						cell2.innerHTML = data[i]["Total Fat (g)"];
-						var cell3 = row.insertCell(3);
-						cell3.innerHTML = data[i]["Carbohydrates (g)"];
-						var cell4 = row.insertCell(4);
-						cell4.innerHTML = data[i]["Protein (g)"];
-						var cell5 = row.insertCell(5);
-						cell5.innerHTML = data[i]["Sodium (mg)"];
-						var cell6 = row.insertCell(6);
-						cell6.innerHTML = data[i]["Price"];
-					}
-					//var bRow = bT.insertRow(1);
-					//var bCell = bRow.insertCell(0);
-					//bCell.innerHTML = "stuff";
-					
-				}*/
-				
+		
 			function otherTry(targetDiv, foodData, cap) {
 					var i = 1;
 						

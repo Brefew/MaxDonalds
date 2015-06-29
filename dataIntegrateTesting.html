@@ -1,11 +1,27 @@
 <html>
     <head>
     <title>MaxDonald's</title>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script src="http://jquery-csv.googlecode.com/git/src/jquery.csv.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>
-		
-	</script>
+
+        //When DOM loaded we attach click event to button
+        $(document).ready(function() {
+            
+           $.ajax({
+			  url: "MaxDonalds.json",
+			  async: false,
+			  dataType: 'json',
+			  data: { json_1:$.toJSON(data_1), json_2:$.toJSON(data_2) },
+			  success: function(response) {
+				  var data = response;
+			  }
+			   
+		   });
+		   
+		   window.print(data);
+			
+        });
+    </script>
     
 	<style>
 	body {
@@ -18,5 +34,7 @@
     </head>
     
     <body>
+    
+    
     </body>
 </html>
