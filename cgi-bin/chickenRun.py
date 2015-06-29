@@ -481,5 +481,22 @@ print '''
 </html>
 	
 '''
-
+#print document.getElementById("money").value;
+usr_money = 1000
+budget = usr_money
+minmoney = budget
+calpercent = 0
+item = ""
+order = []
+work_dict = {}
+for key in burger:
+    work_dict[burger[key]["Name"]] = (burger[key]["Calories"] / (burger[key]["Price"] * 100))
+    work_dict[burger[key]["Price"]] = burger[key]["Price"]
+    print
+#print work_dict
+while (budget >= minmoney):
+    for key in work_dict:
+        if work_dict[key] > calpercent:
+            calpercent = work_dict[key]
+            item = key
 
