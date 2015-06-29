@@ -330,16 +330,6 @@
     "Price":2.3
   },
   {
-    "Name":"Bacon McDouble",
-    "Type":"Burger",
-    "Calories":440,
-    "Total Fat (g)":22,
-    "Carbohydrates (g)":35,
-    "Protein (g)":27,
-    "Sodium (mg)":1110,
-    "Price":2.3
-  },
-  {
     "Name":"Small Frappe",
     "Type":"Drink ",
     "Calories":440,

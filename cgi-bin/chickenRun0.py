@@ -17,6 +17,7 @@ print '''
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="http://jquery-csv.googlecode.com/git/src/jquery.csv.js"></script>
 
+	
     
 	<style>
 	body {
@@ -441,7 +442,27 @@ print '''
 	<br>
 	<button type="button">Max your 'Donald's</button><br><br>
 
-	<img src="Logo.png" height="200" width="250">
+	<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="534.31348" height="505.01907" id="svg2" version="1.1" inkscape:version="0.48.4 r9939" sodipodi:docname="New document 1">
+  <defs id="defs4"/>
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="1.4" inkscape:cx="375" inkscape:cy="291.42857" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="false" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" inkscape:window-width="1920" inkscape:window-height="1018" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1"/>
+  <metadata id="metadata7">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(-1.7505249e-6,-547.34312)">
+    <g id="g3038" transform="translate(-108.11493,259.63781)">
+      <path transform="matrix(1.0171988,0,0,1.0987766,-11.078088,-78.334082)" d="m 642.457,562.9433 c 0,126.9204 -117.58778,229.80971 -262.63965,229.80971 -145.05187,0 -262.63965,-102.88931 -262.63965,-229.80971 0,-126.9204 117.58778,-229.80971 262.63965,-229.80971 145.05187,0 262.63965,102.88931 262.63965,229.80971 z" sodipodi:ry="229.80971" sodipodi:rx="262.63965" sodipodi:cy="562.9433" sodipodi:cx="379.81735" id="path3018" style="fill:#DD1021;fill-opacity:1;stroke:none" sodipodi:type="arc"/>
+      <path id="path3008" d="m 448.94411,414.82163 c 28.14085,0 50.95599,115.00515 50.95599,256.87243 h 40.77494 c 0,-152.78374 -41.07523,-276.635 -91.73093,-276.635 -28.82345,0 -54.53662,37.22213 -71.35191,95.4273 -16.80804,-58.20517 -42.53087,-95.4273 -71.3507,-95.4273 -50.6557,0 -91.73575,123.85126 -91.73575,276.635 h 40.77975 c 0,-141.86728 22.81877,-256.87243 50.956,-256.87243 28.14568,0 50.97048,106.15905 50.97048,237.12155 h 40.76528 c 9.9e-4,-130.9625 22.81876,-237.12155 50.96685,-237.12155" inkscape:connector-curvature="0" style="fill:#ffc300"/>
+    </g>
+  </g>
+</svg>
 
 	</center>
     </body>
