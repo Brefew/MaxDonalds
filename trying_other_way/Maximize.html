@@ -1,0 +1,230 @@
+<html>
+
+    <head>
+
+    <title>MaxDonald's</title>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+	<script src="http://jquery-csv.googlecode.com/git/src/jquery.csv.js"></script>
+
+    <script>
+
+		$(document).ready(function() {
+		});
+
+	</script>
+
+	<style>
+
+	body {
+		background-color: #DD1021;
+	}
+
+	</style>
+    </head>
+    <body>
+	<center>
+
+	<p>
+
+	<font size = "10" face="verdana" color="yellow"><b>MaxDonald's<br>Get the Most out of Your Food!</b></font>
+
+	</p>
+
+<div id=moneyDiv style="display:none;">You must enter a valid amount from 0 to 50</div>
+
+<form action="Buy.php" method="post">
+	<input type="text" name="money" id="money" placeholder="How much do will you spend?" onkeypress = " return isNumer(event)"  />
+
+	<p>
+
+	<font color="white">What are you looking to eat?</font>
+
+	</p>
+
+	<table>
+
+	  <tr>
+
+	    <td>
+
+	<input type="checkbox" name="options[]" id="Burger" value="burger">Burger
+
+	    <div id="Burgerdiv" style="display:none">
+
+                Here's all the burgers we have listed:
+
+            </div>
+
+            <script type="text/javascript">
+
+                $('#Burger').change(function() {
+
+                    $('#Burgerdiv').toggle();
+
+                });
+
+            </script>
+
+            </td>
+
+	    <td>
+
+	<input type="checkbox" name="options[]" id="Chicken" value="chicken">Chicken
+
+            <div id="Chickendiv" style="display:none">
+
+                Here's all the chicken items we have listed:
+
+            </div>
+
+            <script type="text/javascript">
+
+                $('#Chicken').change(function() {
+
+                    $('#Chickendiv').toggle();
+
+                });
+
+            </script>
+
+            </td>
+
+	    <td>
+
+	<input type="checkbox" name="options[]" id="Fries" value="fries">Fries
+
+            <div id="Friesdiv" style="display:none">
+
+                Here's all the fries we have listed:
+
+            </div>
+
+            <script type="text/javascript">
+
+                $('#Fries').change(function() {
+
+                    $('#Friesdiv').toggle();
+
+                });
+
+            </script>
+          </td>
+
+	  </tr>
+	  <tr>
+
+	    <td>	
+
+	<input type="checkbox" name="options[]" id="Drink" value="drink">Drink
+
+            <div id="Drinkdiv" style="display:none">
+
+                Here's all the drinks we have listed:
+
+            </div>
+
+            <script type="text/javascript">
+
+                $('#Drink').change(function() {
+
+                    $('#Drinkdiv').toggle();
+
+                });
+
+            </script>
+            </td>
+	    <td>
+
+	<input type="checkbox" name="options[]" id="Salad" value="salad">Salad	
+
+            <div id="Saladdiv" style="display:none">
+
+                Here's all the salads we have listed:
+
+            </div>
+
+            <script type="text/javascript">
+
+                $('#Salad').change(function() {
+
+                    $('#Saladdiv').toggle();
+
+                });
+
+            </script>
+            </td>
+	    <td>
+	<input type="checkbox" name="options[]" id="Dessert" value="dessert">Dessert
+
+            <div id="Dessertdiv" style="display:none">
+
+                Here's all the desserts we have listed:
+
+            </div>
+
+            <script type="text/javascript">
+
+                $('#Dessert').change(function() {
+
+                    $('#Dessertdiv').toggle();
+
+                });
+
+            </script>
+          </td>
+
+	  </tr>
+
+	</table>
+	<p></p>
+
+	<br>
+<div id="blankDiv" style="display:none;"></div>
+
+	<div id="buttonDiv" style="display:none;">Hello World!</div>
+
+	<button onClick="myFunction(document.getElementById('money').value)">Maximize your McDonald's</button><br><br>
+	
+	</form>
+
+	<script>
+
+	function myFunction(field) {
+		var checkString = document.formname.txt.value;
+		if(field == '' || field <= 0 || field > 50) {
+
+			document.getElementById('moneyDiv').style.display = "block";	
+
+		}
+
+	}
+	function isNumer(evt){
+		var charcode = (evt.which) ? evt.which : event.keycode
+		var charPeriod = 46
+		if (charcode > 31 && charcode < 45 || charcode > 57)   {
+			return false;
+			if (charcode == charPeriod) return true;
+			}
+			
+		return true;
+	
+	
+	
+	}
+
+	</script>
+
+
+
+	<img src="Logo.png" height="200" width="250">
+
+
+
+	</center>
+
+    </body>
+
+</html>
+
