@@ -3,6 +3,7 @@
 import json
 import urllib2
 from pprint import pprint
+import cgi
 
 
 
@@ -282,9 +283,6 @@ print '''
 	<input id='money' type='text' placeholder='How much will you spend?' name='money'><br>
 
 
-	
-
-
 	<p>
 	<font color="white">What are you looking to eat?</font>
 	</p>
@@ -440,7 +438,27 @@ print '''
 
 	<p></p>
 	<br>
-	<button type="button">Max your 'Donald's</button><br><br>
+	
+	<script>
+	function myFunction(field) {
+		//var burgerCheck = document.getElementById("Burger").checked;
+		
+		
+		if(isNaN(field) || field <= 0 || field > 50) {
+			document.getElementById('moneyDiv').style.display = "block";
+			return(false);
+		}
+		
+		
+		//else{
+			//document.getElementById('moneyDiv').innerHTML = burgerCheck;
+		//}
+		
+		
+	}
+	</script>
+
+	<button onclick="myFunction(document.getElementById('money').value)">Max your 'Donald's</button><br>
 
 	<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 	<!-- Created with Inkscape (http://www.inkscape.org/) -->
