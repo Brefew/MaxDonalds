@@ -1,0 +1,28 @@
+var saladRun_8py =
+[
+    [ "byteify", "saladRun_8py.html#aa4dad382993990ca7e6edf9262419b99", null ],
+    [ "buCn", "saladRun_8py.html#a6acb8ab6c55d9d2e6d52c8bccfb4760e", null ],
+    [ "budget", "saladRun_8py.html#a15478cffb6e995e57c1231ebf1ca6aa9", null ],
+    [ "burger", "saladRun_8py.html#a5fb2d71c63d2aa91e7bdab0a1db91666", null ],
+    [ "calpercent", "saladRun_8py.html#a66074e916875696ee2c48e835ddceff7", null ],
+    [ "chCn", "saladRun_8py.html#a318d1e36ebaf120ca73a1071421a40b8", null ],
+    [ "chicken", "saladRun_8py.html#a7d8f9a41af35fcb57da7f604d8c726a2", null ],
+    [ "deCn", "saladRun_8py.html#a9299fe14c063bec9d7678991f9228906", null ],
+    [ "dessert", "saladRun_8py.html#a36d7bec56ba087e0d5c0cd8adea249ce", null ],
+    [ "drCn", "saladRun_8py.html#af13050935a78f76656311536b6fae6d0", null ],
+    [ "drink", "saladRun_8py.html#adf811d21a1ac0493c9b3d02f68415fe0", null ],
+    [ "frCn", "saladRun_8py.html#af2a4057df66bdbf7a206b115d6fe9d85", null ],
+    [ "fries", "saladRun_8py.html#af558c903f050596ef6723fe109071567", null ],
+    [ "item", "saladRun_8py.html#af7102dd40841709ad281aeb6bc614451", null ],
+    [ "minmoney", "saladRun_8py.html#aec7a04d9763dd4a9edb2a8e7079b86da", null ],
+    [ "order", "saladRun_8py.html#af834081a188e9bfd5bdb43f6d551064f", null ],
+    [ "price", "saladRun_8py.html#a1629ac12f6e81f15f118e33c0b65f6db", null ],
+    [ "r", "saladRun_8py.html#a3de78eeea44ec59c8cd88a594ea791fa", null ],
+    [ "response", "saladRun_8py.html#a6c2592efb8e8eefc75704ab8ec52e8d9", null ],
+    [ "run1", "saladRun_8py.html#abec8102fec477601e58a24835fe2b248", null ],
+    [ "saCn", "saladRun_8py.html#a65ac5c79695e5562c8496459009a74e0", null ],
+    [ "salad", "saladRun_8py.html#a9f5cfdba188b5eb660da838ef21492fa", null ],
+    [ "stats", "saladRun_8py.html#a691ebca0650ce8d0a1a703bf7ce0bdf3", null ],
+    [ "usr_money", "saladRun_8py.html#ae646741d59a2a7dfc02cae1124ab6310", null ],
+    [ "work_dict", "saladRun_8py.html#a518d1444a3279d13c3cde61259b42d7f", null ]
+];

@@ -1,0 +1,1 @@
+Separate folder, original documentation generated in the cgi-bin directory

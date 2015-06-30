@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 
+## @package dessertRun
+# Explanation of this particular module
+#
+# Runs a test based on the dessert category
+
 import json
 import urllib2
 from pprint import pprint
@@ -61,6 +66,10 @@ print '''
 #data = json.loads(open('MaxDonalds.json').read())
 #pprint(data)
 
+## Byteify documentation
+#
+# Referenced from the HW4 function
+# Converts the unicode of JSON keys
 def byteify(input):
     if isinstance(input, dict):
         return {byteify(key):byteify(value) for key,value in input.iteritems()}
@@ -71,25 +80,70 @@ def byteify(input):
     else:
         return input
 
+## response documentation
+#
+# Variable for holding the json input file
 response = urllib2.urlopen("file:MaxDonalds.json")
+## stats documentation
+#
+# A variable that acts as the converted json folder, having passed through byteify
 stats = byteify(json.load(response))
 
+## drink dictionary documentation
+#
+# Slice of the primary dictionary designated for drinks
 drink = {}
+## burger dictionary documentation
+#
+# Slice of the primary dictionary designated for burgers
 burger = {}
+## chicken dictionary documentation
+#
+# Slice of the primary dictionary designated for chicken
 chicken = {}
+## salad dictionary documentation
+#
+# Slice of the primary dictionary designated for salads
 salad = {}
+## dessert dictionary documentation
+#
+# Slice of the primary dictionary designated for dessert
 dessert = {}
+## fry dictionary documentation
+#
+# Slice of the primary dictionary designated for fries
 fries = {}
 
+## drCn Documentation
+#
+# The integer keeping track of the drink count index
 drCn = 1
+## buCn Documentation
+#
+# The integer keeping track of the burger count index
 buCn = 1
+## chCn Documentation
+#
+# The integer keeping track of the chicken count index
 chCn = 1
+## saCn Documentation
+#
+# The integer keeping track of the salad count index
 saCn = 1
+## deCn Documentation
+#
+# The integer keeping track of the dessert count index
 deCn = 1
+## frCn Documentation
+#
+# The integer keeping track of the fry count index
 frCn = 1
 
 #print stats[4];
 
+## len documentation
+#
+# A value to keep track of the stats max length in a for loop that splits it up
 r = len(stats);
 
 for i in range (0, r):
@@ -492,14 +546,42 @@ print '''
 	
 '''
 #print document.getElementById("money").value;
+
+## usr_money documentation
+#
+# A test value to apply to the code (displayed in cents)
 usr_money = 529
+## budget documentation
+#
+# Maintains the usr_money value
 budget = usr_money
+## minmoney documentation
+#
+# Maintains the budget value
 minmoney = budget
+## price documentation
+#
+# Standin price variable for the upcoming calculations
 price = 0
+## calpercent documentation
+#
+# Int for keeping track of the calories of food items per one cent
 calpercent = 0
+## run1 documentation
+#
+# Acts as a toggle to keep track of the upcoming while loop
 run1 = 0
+## item documentation
+#
+# An empty variable that takes the name of an item assigned later
 item = ""
+## order documentation
+#
+# Empty list to be filled with items that pass the tests for the items with the optimal calorie-per-cent rate
 order = []
+## work_dict documentation
+#
+# An empty dictionary that will handle the order[] list to be filled
 work_dict = {}
 for key in dessert:
     work_dict[dessert[key]["Name"]] = (dessert[key]["Calories"] / (dessert[key]["Price"] * 100)), (dessert[key]["Price"] * 100)

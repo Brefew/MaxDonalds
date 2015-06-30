@@ -1,0 +1,28 @@
+var dessertRun_8py =
+[
+    [ "byteify", "dessertRun_8py.html#aad67f3fdc9c1541f0db0e8b794cbff41", null ],
+    [ "buCn", "dessertRun_8py.html#a6e637ccc795ab8bbbea073cd8f4a54ae", null ],
+    [ "budget", "dessertRun_8py.html#ad382a954043a8ddd9981e8826734fc25", null ],
+    [ "burger", "dessertRun_8py.html#ac805a15da74f0b8905a97892c48125d0", null ],
+    [ "calpercent", "dessertRun_8py.html#a7af5e5c1df399dbe2d73cb7e89c3a1a3", null ],
+    [ "chCn", "dessertRun_8py.html#a4190d0c5b39e025f4561b410c4d83414", null ],
+    [ "chicken", "dessertRun_8py.html#a14b8eea3f8b40883b46cf609bce3d986", null ],
+    [ "deCn", "dessertRun_8py.html#aac09394d5f6a1b906693f7ec37a3f98c", null ],
+    [ "dessert", "dessertRun_8py.html#a0fdf1938fbeb3dd0c2bbbec35947d482", null ],
+    [ "drCn", "dessertRun_8py.html#a24fc89b892225fce1672995dd2a6d153", null ],
+    [ "drink", "dessertRun_8py.html#a6d74dd7f27dfad5267f173798e5c3623", null ],
+    [ "frCn", "dessertRun_8py.html#af00fce1904a38fa79326b02eba27099b", null ],
+    [ "fries", "dessertRun_8py.html#a865fccb585f44d25490e78ecf2b97236", null ],
+    [ "item", "dessertRun_8py.html#a684b1ba20583e1d1e8153054e40dc98f", null ],
+    [ "minmoney", "dessertRun_8py.html#a71cc6704fe017182a8eccb8be7332e5c", null ],
+    [ "order", "dessertRun_8py.html#abd41e31de1fe74c6ab5973862f86677e", null ],
+    [ "price", "dessertRun_8py.html#a0c46f81b249bbd1c1db625da5f604474", null ],
+    [ "r", "dessertRun_8py.html#a5f68dbb974d97cc9b458d986a6e9614c", null ],
+    [ "response", "dessertRun_8py.html#af13b95ccc7547d10a658843e2c8a9aa1", null ],
+    [ "run1", "dessertRun_8py.html#a347ecfd5a39cfc664f1169f75bb95ad5", null ],
+    [ "saCn", "dessertRun_8py.html#a6f524dca59e264915b76d82b8381dfa3", null ],
+    [ "salad", "dessertRun_8py.html#ac06bb6058314a8f010e0c2a6d3a6c067", null ],
+    [ "stats", "dessertRun_8py.html#a6711acc9ba277e4a4d250a01bf76ef22", null ],
+    [ "usr_money", "dessertRun_8py.html#af6e2ea6ab3f9e528fbd53b37d154aabd", null ],
+    [ "work_dict", "dessertRun_8py.html#acc6c32059977bfad8131949a82cc4590", null ]
+];
