@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 
+## @package chickenRun
+# Explanation of this particular module
+#
+# Runs a test based on the chicken category
+
 import json
 import urllib2
 from pprint import pprint
@@ -61,6 +66,10 @@ print '''
 #data = json.loads(open('MaxDonalds.json').read())
 #pprint(data)
 
+## Byteify documentation
+#
+# Referenced from the HW4 function
+# Converts the unicode of JSON keys
 def byteify(input):
     if isinstance(input, dict):
         return {byteify(key):byteify(value) for key,value in input.iteritems()}
@@ -71,25 +80,70 @@ def byteify(input):
     else:
         return input
 
+## response documentation
+#
+# Variable for holding the json input file
 response = urllib2.urlopen("file:MaxDonalds.json")
+## stats documentation
+#
+# A variable that acts as the converted json folder, having passed through byteify
 stats = byteify(json.load(response))
 
+## drink dictionary documentation
+#
+# Slice of the primary dictionary designated for drinks
 drink = {}
+## burger dictionary documentation
+#
+# Slice of the primary dictionary designated for burgers
 burger = {}
+## chicken dictionary documentation
+#
+# Slice of the primary dictionary designated for chicken
 chicken = {}
+## salad dictionary documentation
+#
+# Slice of the primary dictionary designated for salads
 salad = {}
+## dessert dictionary documentation
+#
+# Slice of the primary dictionary designated for dessert
 dessert = {}
+## fry dictionary documentation
+#
+# Slice of the primary dictionary designated for fries
 fries = {}
 
+## drCn Documentation
+#
+# The integer keeping track of the drink count index
 drCn = 1
+## buCn Documentation
+#
+# The integer keeping track of the burger count index
 buCn = 1
+## chCn Documentation
+#
+# The integer keeping track of the chicken count index
 chCn = 1
+## saCn Documentation
+#
+# The integer keeping track of the salad count index
 saCn = 1
+## deCn Documentation
+#
+# The integer keeping track of the dessert count index
 deCn = 1
+## frCn Documentation
+#
+# The integer keeping track of the fry count index
 frCn = 1
 
 #print stats[4];
 
+## len documentation
+#
+# A value to keep track of the stats max length in a for loop that splits it up
 r = len(stats);
 
 for i in range (0, r):
@@ -441,10 +495,20 @@ print '''
 
 	<script>
 	function myFunction(field) {
+		//var burgerCheck = document.getElementById("Burger").checked;
+		
+		
 		if(isNaN(field) || field <= 0 || field > 50) {
 			document.getElementById('moneyDiv').style.display = "block";
 			return(false);
 		}
+		
+		
+		else if(field == ""){
+			//document.getElementById('moneyDiv').innerHTML = burgerCheck;
+		}
+		
+		
 	}
 	</script>
 
@@ -469,7 +533,7 @@ print '''
 	  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(-1.7505249e-6,-547.34312)">
 		<g id="g3038" transform="translate(-108.11493,259.63781)">
 		  <path transform="matrix(1.0171988,0,0,1.0987766,-11.078088,-78.334082)" d="m 642.457,562.9433 c 0,126.9204 -117.58778,229.80971 -262.63965,229.80971 -145.05187,0 -262.63965,-102.88931 -262.63965,-229.80971 0,-126.9204 117.58778,-229.80971 262.63965,-229.80971 145.05187,0 262.63965,102.88931 262.63965,229.80971 z" sodipodi:ry="229.80971" sodipodi:rx="262.63965" sodipodi:cy="562.9433" sodipodi:cx="379.81735" id="path3018" style="fill:#DD1021;fill-opacity:1;stroke:none" sodipodi:type="arc"/>
-		  <path id="path3008" d="m 448.94411,414.82163 c 28.14085,0 50.95599,115.00515 50.95599,256.87243 h 40.77494 c 0,-152.78374 -41.07523,-276.635 -91.73093,-276.635 -28.82345,0 -54.53662,37.22213 -71.35191,95.4273 -16.80804,-58.20517 -42.53087,-95.4273 -71.3507,-95.4273 -50.6557,0 -91.73575,123.85126 -91.73575,276.635 h 40.77975 c 0,-141.86728 22.81877,-256.87243 50.956,-256.87243 28.14568,0 50.97048,106.15905 50.97048,237.12155 h 40.76528 c 9.9e-4,-130.9625 22.81876,-237.12155 50.96685,-237.12155" inkscape:connector-curvature="0" style="fill:#ffc300"/>
+		  <path id="path3008" d="m 448.94411,414.82163 c 28.14085,0 50.95599,115.00515 50.95599,256.87243 h 40.77494 c 0,-152.78374 -41.07523,-276.635 -91.73093,-276.635 -28.82345,0 -54.53662,37.22213 -71.35191,95.4273 -16.80804,-58.20517 -42.53087,-95.4273 -71.3507,-95.4273 -50.6557,0 -91.73575,123.85126 -91.73575,276.635 h 40.77975 c 0,-141.86728 22.81877,-256.87243 50.956,-256.87243 28.14568,0 50.97048,106.15905 50.97048,237.12155 h 40.76528 c 9.9e-4,-130.9625 22.81876,-237.12155 50.96685,-237.12155" inkscape:connector-curvature="0" style="fill:#ffcc00"/>
 		</g>
 	  </g>
 	</svg>
@@ -481,5 +545,73 @@ print '''
 </html>
 	
 '''
+#print document.getElementById("money").value;
 
-
+## usr_money documentation
+#
+# A test value to apply to the code (displayed in cents)
+usr_money = 529
+## budget documentation
+#
+# Maintains the usr_money value
+budget = usr_money
+## minmoney documentation
+#
+# Maintains the budget value
+minmoney = budget
+## price documentation
+#
+# Standin price variable for the upcoming calculations
+price = 0
+## calpercent documentation
+#
+# Int for keeping track of the calories of food items per one cent
+calpercent = 0
+## run1 documentation
+#
+# Acts as a toggle to keep track of the upcoming while loop
+run1 = 0
+## item documentation
+#
+# An empty variable that takes the name of an item assigned later
+item = ""
+## order documentation
+#
+# Empty list to be filled with items that pass the tests for the items with the optimal calorie-per-cent rate
+order = []
+## work_dict documentation
+#
+# An empty dictionary that will handle the order[] list to be filled
+work_dict = {}
+for key in chicken:
+    work_dict[chicken[key]["Name"]] = (chicken[key]["Calories"] / (chicken[key]["Price"] * 100)), (chicken[key]["Price"] * 100)
+    print
+#print work_dict
+while (budget >= minmoney):
+    if work_dict == {}:
+        break
+    calpercent = 0
+    minmoney = budget 
+    if run1 == 1:
+        del work_dict[item]
+        order.append(item)
+       
+    for key in work_dict:
+        if work_dict[key][1] <= minmoney:
+            minmoney = work_dict[key][1]
+        if work_dict[key][0] > calpercent:
+            calpercent = work_dict[key][0]
+            item = key
+            price = work_dict[key][1]
+    budget -= price
+    run1 = 1
+#print order
+if budget >= 0:
+    order.append(item)
+else:
+    budget += price
+print "Your order will be: "
+for item in order: 
+    print item, ","
+print "and total to: $", (usr_money - budget)/100, "."
+print "You will have $", (budget)/100, "remaining."

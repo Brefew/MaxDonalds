@@ -1,0 +1,28 @@
+var drinksRun_8py =
+[
+    [ "byteify", "drinksRun_8py.html#ab0005a4ca74f8f8a23c70619924a4da7", null ],
+    [ "buCn", "drinksRun_8py.html#a95e382ea60d44bc8c3e60643b567dbe7", null ],
+    [ "budget", "drinksRun_8py.html#abbe965c631ba5fc34a4aa84677d14057", null ],
+    [ "burger", "drinksRun_8py.html#a1f8969b1be20225df0aaae47798fc30b", null ],
+    [ "calpercent", "drinksRun_8py.html#a085059cd3f6a34b74289cf85fe19dad5", null ],
+    [ "chCn", "drinksRun_8py.html#a31dc829bbf1db0331265c69e22a6e301", null ],
+    [ "chicken", "drinksRun_8py.html#aeed34a0fd8bbfc45bcde51104111ed3f", null ],
+    [ "deCn", "drinksRun_8py.html#a3289d16d8767b8bc392ffbdf15ea01e5", null ],
+    [ "dessert", "drinksRun_8py.html#a14134319968594930401ef12e1aebb71", null ],
+    [ "drCn", "drinksRun_8py.html#aad00762314fc2dd055b2fb2588fb2f44", null ],
+    [ "drink", "drinksRun_8py.html#a80ae8aa061b50fd5f4c631cfc0c16281", null ],
+    [ "frCn", "drinksRun_8py.html#a00dd0c364336dac1c385462acd87ca20", null ],
+    [ "fries", "drinksRun_8py.html#af1b2c5d85f80dd2df0bedc4501369889", null ],
+    [ "item", "drinksRun_8py.html#a309ac6a752bb1991b98db6406c65f310", null ],
+    [ "minmoney", "drinksRun_8py.html#ae8aedc6e63d9f061186d07b66fa9c854", null ],
+    [ "order", "drinksRun_8py.html#a782f15bcfec0ee2dab26faf448338cd5", null ],
+    [ "price", "drinksRun_8py.html#abb2dda63e5df841ca2bed090173e7ef3", null ],
+    [ "r", "drinksRun_8py.html#a348983d6aa82951c35c2faf31017093f", null ],
+    [ "response", "drinksRun_8py.html#a3166af8a07e6644e4bfb76ac05545d80", null ],
+    [ "run1", "drinksRun_8py.html#a6c7e6e961ffcfbcc6d0b34187d8de28f", null ],
+    [ "saCn", "drinksRun_8py.html#a60d9e7400407e80e21e2c6cea5cc188b", null ],
+    [ "salad", "drinksRun_8py.html#a700ff198f4d372be39b8c8ce8bc10b9e", null ],
+    [ "stats", "drinksRun_8py.html#a6b296426121ab26d77f2ae73094ba1be", null ],
+    [ "usr_money", "drinksRun_8py.html#a1175911b84c3ff7a59eaf99936e7ce0b", null ],
+    [ "work_dict", "drinksRun_8py.html#aec482d659ba637a7a2a286f3398f7c31", null ]
+];

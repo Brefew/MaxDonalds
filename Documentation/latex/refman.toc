@@ -1,0 +1,187 @@
+\contentsline {chapter}{\numberline {1}Namespace Index}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Packages}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}File Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}File List}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}Namespace Documentation}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}burger\discretionary {-}{}{}Run Namespace Reference}{5}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Detailed Description}{6}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Function Documentation}{6}{subsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.2.1}byteify}{6}{subsubsection.3.1.2.1}
+\contentsline {subsection}{\numberline {3.1.3}Variable Documentation}{6}{subsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.3.1}bu\discretionary {-}{}{}Cn}{6}{subsubsection.3.1.3.1}
+\contentsline {subsubsection}{\numberline {3.1.3.2}budget}{6}{subsubsection.3.1.3.2}
+\contentsline {subsubsection}{\numberline {3.1.3.3}burger}{7}{subsubsection.3.1.3.3}
+\contentsline {subsubsection}{\numberline {3.1.3.4}calpercent}{7}{subsubsection.3.1.3.4}
+\contentsline {subsubsection}{\numberline {3.1.3.5}ch\discretionary {-}{}{}Cn}{7}{subsubsection.3.1.3.5}
+\contentsline {subsubsection}{\numberline {3.1.3.6}chicken}{7}{subsubsection.3.1.3.6}
+\contentsline {subsubsection}{\numberline {3.1.3.7}de\discretionary {-}{}{}Cn}{7}{subsubsection.3.1.3.7}
+\contentsline {subsubsection}{\numberline {3.1.3.8}dessert}{7}{subsubsection.3.1.3.8}
+\contentsline {subsubsection}{\numberline {3.1.3.9}dr\discretionary {-}{}{}Cn}{7}{subsubsection.3.1.3.9}
+\contentsline {subsubsection}{\numberline {3.1.3.10}drink}{7}{subsubsection.3.1.3.10}
+\contentsline {subsubsection}{\numberline {3.1.3.11}fr\discretionary {-}{}{}Cn}{8}{subsubsection.3.1.3.11}
+\contentsline {subsubsection}{\numberline {3.1.3.12}fries}{8}{subsubsection.3.1.3.12}
+\contentsline {subsubsection}{\numberline {3.1.3.13}item}{8}{subsubsection.3.1.3.13}
+\contentsline {subsubsection}{\numberline {3.1.3.14}minmoney}{8}{subsubsection.3.1.3.14}
+\contentsline {subsubsection}{\numberline {3.1.3.15}order}{8}{subsubsection.3.1.3.15}
+\contentsline {subsubsection}{\numberline {3.1.3.16}price}{8}{subsubsection.3.1.3.16}
+\contentsline {subsubsection}{\numberline {3.1.3.17}r}{8}{subsubsection.3.1.3.17}
+\contentsline {subsubsection}{\numberline {3.1.3.18}response}{9}{subsubsection.3.1.3.18}
+\contentsline {subsubsection}{\numberline {3.1.3.19}run1}{9}{subsubsection.3.1.3.19}
+\contentsline {subsubsection}{\numberline {3.1.3.20}sa\discretionary {-}{}{}Cn}{9}{subsubsection.3.1.3.20}
+\contentsline {subsubsection}{\numberline {3.1.3.21}salad}{9}{subsubsection.3.1.3.21}
+\contentsline {subsubsection}{\numberline {3.1.3.22}stats}{9}{subsubsection.3.1.3.22}
+\contentsline {subsubsection}{\numberline {3.1.3.23}usr\discretionary {-}{}{}\_\discretionary {-}{}{}money}{9}{subsubsection.3.1.3.23}
+\contentsline {subsubsection}{\numberline {3.1.3.24}work\discretionary {-}{}{}\_\discretionary {-}{}{}dict}{9}{subsubsection.3.1.3.24}
+\contentsline {section}{\numberline {3.2}chicken\discretionary {-}{}{}Run Namespace Reference}{9}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Detailed Description}{11}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Function Documentation}{11}{subsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.1}byteify}{11}{subsubsection.3.2.2.1}
+\contentsline {subsection}{\numberline {3.2.3}Variable Documentation}{11}{subsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.3.1}bu\discretionary {-}{}{}Cn}{11}{subsubsection.3.2.3.1}
+\contentsline {subsubsection}{\numberline {3.2.3.2}budget}{11}{subsubsection.3.2.3.2}
+\contentsline {subsubsection}{\numberline {3.2.3.3}burger}{11}{subsubsection.3.2.3.3}
+\contentsline {subsubsection}{\numberline {3.2.3.4}calpercent}{11}{subsubsection.3.2.3.4}
+\contentsline {subsubsection}{\numberline {3.2.3.5}ch\discretionary {-}{}{}Cn}{11}{subsubsection.3.2.3.5}
+\contentsline {subsubsection}{\numberline {3.2.3.6}chicken}{12}{subsubsection.3.2.3.6}
+\contentsline {subsubsection}{\numberline {3.2.3.7}de\discretionary {-}{}{}Cn}{12}{subsubsection.3.2.3.7}
+\contentsline {subsubsection}{\numberline {3.2.3.8}dessert}{12}{subsubsection.3.2.3.8}
+\contentsline {subsubsection}{\numberline {3.2.3.9}dr\discretionary {-}{}{}Cn}{12}{subsubsection.3.2.3.9}
+\contentsline {subsubsection}{\numberline {3.2.3.10}drink}{12}{subsubsection.3.2.3.10}
+\contentsline {subsubsection}{\numberline {3.2.3.11}fr\discretionary {-}{}{}Cn}{12}{subsubsection.3.2.3.11}
+\contentsline {subsubsection}{\numberline {3.2.3.12}fries}{12}{subsubsection.3.2.3.12}
+\contentsline {subsubsection}{\numberline {3.2.3.13}item}{13}{subsubsection.3.2.3.13}
+\contentsline {subsubsection}{\numberline {3.2.3.14}minmoney}{13}{subsubsection.3.2.3.14}
+\contentsline {subsubsection}{\numberline {3.2.3.15}order}{13}{subsubsection.3.2.3.15}
+\contentsline {subsubsection}{\numberline {3.2.3.16}price}{13}{subsubsection.3.2.3.16}
+\contentsline {subsubsection}{\numberline {3.2.3.17}r}{13}{subsubsection.3.2.3.17}
+\contentsline {subsubsection}{\numberline {3.2.3.18}response}{13}{subsubsection.3.2.3.18}
+\contentsline {subsubsection}{\numberline {3.2.3.19}run1}{13}{subsubsection.3.2.3.19}
+\contentsline {subsubsection}{\numberline {3.2.3.20}sa\discretionary {-}{}{}Cn}{13}{subsubsection.3.2.3.20}
+\contentsline {subsubsection}{\numberline {3.2.3.21}salad}{14}{subsubsection.3.2.3.21}
+\contentsline {subsubsection}{\numberline {3.2.3.22}stats}{14}{subsubsection.3.2.3.22}
+\contentsline {subsubsection}{\numberline {3.2.3.23}usr\discretionary {-}{}{}\_\discretionary {-}{}{}money}{14}{subsubsection.3.2.3.23}
+\contentsline {subsubsection}{\numberline {3.2.3.24}work\discretionary {-}{}{}\_\discretionary {-}{}{}dict}{14}{subsubsection.3.2.3.24}
+\contentsline {section}{\numberline {3.3}dessert\discretionary {-}{}{}Run Namespace Reference}{14}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Detailed Description}{15}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Function Documentation}{15}{subsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.2.1}byteify}{15}{subsubsection.3.3.2.1}
+\contentsline {subsection}{\numberline {3.3.3}Variable Documentation}{16}{subsection.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.3.1}bu\discretionary {-}{}{}Cn}{16}{subsubsection.3.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.3.2}budget}{16}{subsubsection.3.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3.3}burger}{16}{subsubsection.3.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.3.4}calpercent}{16}{subsubsection.3.3.3.4}
+\contentsline {subsubsection}{\numberline {3.3.3.5}ch\discretionary {-}{}{}Cn}{16}{subsubsection.3.3.3.5}
+\contentsline {subsubsection}{\numberline {3.3.3.6}chicken}{16}{subsubsection.3.3.3.6}
+\contentsline {subsubsection}{\numberline {3.3.3.7}de\discretionary {-}{}{}Cn}{16}{subsubsection.3.3.3.7}
+\contentsline {subsubsection}{\numberline {3.3.3.8}dessert}{17}{subsubsection.3.3.3.8}
+\contentsline {subsubsection}{\numberline {3.3.3.9}dr\discretionary {-}{}{}Cn}{17}{subsubsection.3.3.3.9}
+\contentsline {subsubsection}{\numberline {3.3.3.10}drink}{17}{subsubsection.3.3.3.10}
+\contentsline {subsubsection}{\numberline {3.3.3.11}fr\discretionary {-}{}{}Cn}{17}{subsubsection.3.3.3.11}
+\contentsline {subsubsection}{\numberline {3.3.3.12}fries}{17}{subsubsection.3.3.3.12}
+\contentsline {subsubsection}{\numberline {3.3.3.13}item}{17}{subsubsection.3.3.3.13}
+\contentsline {subsubsection}{\numberline {3.3.3.14}minmoney}{17}{subsubsection.3.3.3.14}
+\contentsline {subsubsection}{\numberline {3.3.3.15}order}{17}{subsubsection.3.3.3.15}
+\contentsline {subsubsection}{\numberline {3.3.3.16}price}{18}{subsubsection.3.3.3.16}
+\contentsline {subsubsection}{\numberline {3.3.3.17}r}{18}{subsubsection.3.3.3.17}
+\contentsline {subsubsection}{\numberline {3.3.3.18}response}{18}{subsubsection.3.3.3.18}
+\contentsline {subsubsection}{\numberline {3.3.3.19}run1}{18}{subsubsection.3.3.3.19}
+\contentsline {subsubsection}{\numberline {3.3.3.20}sa\discretionary {-}{}{}Cn}{18}{subsubsection.3.3.3.20}
+\contentsline {subsubsection}{\numberline {3.3.3.21}salad}{18}{subsubsection.3.3.3.21}
+\contentsline {subsubsection}{\numberline {3.3.3.22}stats}{18}{subsubsection.3.3.3.22}
+\contentsline {subsubsection}{\numberline {3.3.3.23}usr\discretionary {-}{}{}\_\discretionary {-}{}{}money}{19}{subsubsection.3.3.3.23}
+\contentsline {subsubsection}{\numberline {3.3.3.24}work\discretionary {-}{}{}\_\discretionary {-}{}{}dict}{19}{subsubsection.3.3.3.24}
+\contentsline {section}{\numberline {3.4}drinks\discretionary {-}{}{}Run Namespace Reference}{19}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Detailed Description}{20}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Function Documentation}{20}{subsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.2.1}byteify}{20}{subsubsection.3.4.2.1}
+\contentsline {subsection}{\numberline {3.4.3}Variable Documentation}{20}{subsection.3.4.3}
+\contentsline {subsubsection}{\numberline {3.4.3.1}bu\discretionary {-}{}{}Cn}{20}{subsubsection.3.4.3.1}
+\contentsline {subsubsection}{\numberline {3.4.3.2}budget}{20}{subsubsection.3.4.3.2}
+\contentsline {subsubsection}{\numberline {3.4.3.3}burger}{21}{subsubsection.3.4.3.3}
+\contentsline {subsubsection}{\numberline {3.4.3.4}calpercent}{21}{subsubsection.3.4.3.4}
+\contentsline {subsubsection}{\numberline {3.4.3.5}ch\discretionary {-}{}{}Cn}{21}{subsubsection.3.4.3.5}
+\contentsline {subsubsection}{\numberline {3.4.3.6}chicken}{21}{subsubsection.3.4.3.6}
+\contentsline {subsubsection}{\numberline {3.4.3.7}de\discretionary {-}{}{}Cn}{21}{subsubsection.3.4.3.7}
+\contentsline {subsubsection}{\numberline {3.4.3.8}dessert}{21}{subsubsection.3.4.3.8}
+\contentsline {subsubsection}{\numberline {3.4.3.9}dr\discretionary {-}{}{}Cn}{21}{subsubsection.3.4.3.9}
+\contentsline {subsubsection}{\numberline {3.4.3.10}drink}{21}{subsubsection.3.4.3.10}
+\contentsline {subsubsection}{\numberline {3.4.3.11}fr\discretionary {-}{}{}Cn}{22}{subsubsection.3.4.3.11}
+\contentsline {subsubsection}{\numberline {3.4.3.12}fries}{22}{subsubsection.3.4.3.12}
+\contentsline {subsubsection}{\numberline {3.4.3.13}item}{22}{subsubsection.3.4.3.13}
+\contentsline {subsubsection}{\numberline {3.4.3.14}minmoney}{22}{subsubsection.3.4.3.14}
+\contentsline {subsubsection}{\numberline {3.4.3.15}order}{22}{subsubsection.3.4.3.15}
+\contentsline {subsubsection}{\numberline {3.4.3.16}price}{22}{subsubsection.3.4.3.16}
+\contentsline {subsubsection}{\numberline {3.4.3.17}r}{22}{subsubsection.3.4.3.17}
+\contentsline {subsubsection}{\numberline {3.4.3.18}response}{23}{subsubsection.3.4.3.18}
+\contentsline {subsubsection}{\numberline {3.4.3.19}run1}{23}{subsubsection.3.4.3.19}
+\contentsline {subsubsection}{\numberline {3.4.3.20}sa\discretionary {-}{}{}Cn}{23}{subsubsection.3.4.3.20}
+\contentsline {subsubsection}{\numberline {3.4.3.21}salad}{23}{subsubsection.3.4.3.21}
+\contentsline {subsubsection}{\numberline {3.4.3.22}stats}{23}{subsubsection.3.4.3.22}
+\contentsline {subsubsection}{\numberline {3.4.3.23}usr\discretionary {-}{}{}\_\discretionary {-}{}{}money}{23}{subsubsection.3.4.3.23}
+\contentsline {subsubsection}{\numberline {3.4.3.24}work\discretionary {-}{}{}\_\discretionary {-}{}{}dict}{23}{subsubsection.3.4.3.24}
+\contentsline {section}{\numberline {3.5}fries\discretionary {-}{}{}Run Namespace Reference}{23}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Detailed Description}{25}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Function Documentation}{25}{subsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.5.2.1}byteify}{25}{subsubsection.3.5.2.1}
+\contentsline {subsection}{\numberline {3.5.3}Variable Documentation}{25}{subsection.3.5.3}
+\contentsline {subsubsection}{\numberline {3.5.3.1}bu\discretionary {-}{}{}Cn}{25}{subsubsection.3.5.3.1}
+\contentsline {subsubsection}{\numberline {3.5.3.2}budget}{25}{subsubsection.3.5.3.2}
+\contentsline {subsubsection}{\numberline {3.5.3.3}burger}{25}{subsubsection.3.5.3.3}
+\contentsline {subsubsection}{\numberline {3.5.3.4}calpercent}{25}{subsubsection.3.5.3.4}
+\contentsline {subsubsection}{\numberline {3.5.3.5}ch\discretionary {-}{}{}Cn}{25}{subsubsection.3.5.3.5}
+\contentsline {subsubsection}{\numberline {3.5.3.6}chicken}{26}{subsubsection.3.5.3.6}
+\contentsline {subsubsection}{\numberline {3.5.3.7}de\discretionary {-}{}{}Cn}{26}{subsubsection.3.5.3.7}
+\contentsline {subsubsection}{\numberline {3.5.3.8}dessert}{26}{subsubsection.3.5.3.8}
+\contentsline {subsubsection}{\numberline {3.5.3.9}dr\discretionary {-}{}{}Cn}{26}{subsubsection.3.5.3.9}
+\contentsline {subsubsection}{\numberline {3.5.3.10}drink}{26}{subsubsection.3.5.3.10}
+\contentsline {subsubsection}{\numberline {3.5.3.11}fr\discretionary {-}{}{}Cn}{26}{subsubsection.3.5.3.11}
+\contentsline {subsubsection}{\numberline {3.5.3.12}fries}{26}{subsubsection.3.5.3.12}
+\contentsline {subsubsection}{\numberline {3.5.3.13}item}{27}{subsubsection.3.5.3.13}
+\contentsline {subsubsection}{\numberline {3.5.3.14}minmoney}{27}{subsubsection.3.5.3.14}
+\contentsline {subsubsection}{\numberline {3.5.3.15}order}{27}{subsubsection.3.5.3.15}
+\contentsline {subsubsection}{\numberline {3.5.3.16}price}{27}{subsubsection.3.5.3.16}
+\contentsline {subsubsection}{\numberline {3.5.3.17}r}{27}{subsubsection.3.5.3.17}
+\contentsline {subsubsection}{\numberline {3.5.3.18}response}{27}{subsubsection.3.5.3.18}
+\contentsline {subsubsection}{\numberline {3.5.3.19}run1}{27}{subsubsection.3.5.3.19}
+\contentsline {subsubsection}{\numberline {3.5.3.20}sa\discretionary {-}{}{}Cn}{27}{subsubsection.3.5.3.20}
+\contentsline {subsubsection}{\numberline {3.5.3.21}salad}{28}{subsubsection.3.5.3.21}
+\contentsline {subsubsection}{\numberline {3.5.3.22}stats}{28}{subsubsection.3.5.3.22}
+\contentsline {subsubsection}{\numberline {3.5.3.23}usr\discretionary {-}{}{}\_\discretionary {-}{}{}money}{28}{subsubsection.3.5.3.23}
+\contentsline {subsubsection}{\numberline {3.5.3.24}work\discretionary {-}{}{}\_\discretionary {-}{}{}dict}{28}{subsubsection.3.5.3.24}
+\contentsline {section}{\numberline {3.6}salad\discretionary {-}{}{}Run Namespace Reference}{28}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Detailed Description}{29}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Function Documentation}{29}{subsection.3.6.2}
+\contentsline {subsubsection}{\numberline {3.6.2.1}byteify}{29}{subsubsection.3.6.2.1}
+\contentsline {subsection}{\numberline {3.6.3}Variable Documentation}{30}{subsection.3.6.3}
+\contentsline {subsubsection}{\numberline {3.6.3.1}bu\discretionary {-}{}{}Cn}{30}{subsubsection.3.6.3.1}
+\contentsline {subsubsection}{\numberline {3.6.3.2}budget}{30}{subsubsection.3.6.3.2}
+\contentsline {subsubsection}{\numberline {3.6.3.3}burger}{30}{subsubsection.3.6.3.3}
+\contentsline {subsubsection}{\numberline {3.6.3.4}calpercent}{30}{subsubsection.3.6.3.4}
+\contentsline {subsubsection}{\numberline {3.6.3.5}ch\discretionary {-}{}{}Cn}{30}{subsubsection.3.6.3.5}
+\contentsline {subsubsection}{\numberline {3.6.3.6}chicken}{30}{subsubsection.3.6.3.6}
+\contentsline {subsubsection}{\numberline {3.6.3.7}de\discretionary {-}{}{}Cn}{30}{subsubsection.3.6.3.7}
+\contentsline {subsubsection}{\numberline {3.6.3.8}dessert}{31}{subsubsection.3.6.3.8}
+\contentsline {subsubsection}{\numberline {3.6.3.9}dr\discretionary {-}{}{}Cn}{31}{subsubsection.3.6.3.9}
+\contentsline {subsubsection}{\numberline {3.6.3.10}drink}{31}{subsubsection.3.6.3.10}
+\contentsline {subsubsection}{\numberline {3.6.3.11}fr\discretionary {-}{}{}Cn}{31}{subsubsection.3.6.3.11}
+\contentsline {subsubsection}{\numberline {3.6.3.12}fries}{31}{subsubsection.3.6.3.12}
+\contentsline {subsubsection}{\numberline {3.6.3.13}item}{31}{subsubsection.3.6.3.13}
+\contentsline {subsubsection}{\numberline {3.6.3.14}minmoney}{31}{subsubsection.3.6.3.14}
+\contentsline {subsubsection}{\numberline {3.6.3.15}order}{31}{subsubsection.3.6.3.15}
+\contentsline {subsubsection}{\numberline {3.6.3.16}price}{32}{subsubsection.3.6.3.16}
+\contentsline {subsubsection}{\numberline {3.6.3.17}r}{32}{subsubsection.3.6.3.17}
+\contentsline {subsubsection}{\numberline {3.6.3.18}response}{32}{subsubsection.3.6.3.18}
+\contentsline {subsubsection}{\numberline {3.6.3.19}run1}{32}{subsubsection.3.6.3.19}
+\contentsline {subsubsection}{\numberline {3.6.3.20}sa\discretionary {-}{}{}Cn}{32}{subsubsection.3.6.3.20}
+\contentsline {subsubsection}{\numberline {3.6.3.21}salad}{32}{subsubsection.3.6.3.21}
+\contentsline {subsubsection}{\numberline {3.6.3.22}stats}{32}{subsubsection.3.6.3.22}
+\contentsline {subsubsection}{\numberline {3.6.3.23}usr\discretionary {-}{}{}\_\discretionary {-}{}{}money}{33}{subsubsection.3.6.3.23}
+\contentsline {subsubsection}{\numberline {3.6.3.24}work\discretionary {-}{}{}\_\discretionary {-}{}{}dict}{33}{subsubsection.3.6.3.24}
+\contentsline {chapter}{\numberline {4}File Documentation}{35}{chapter.4}
+\contentsline {section}{\numberline {4.1}burger\discretionary {-}{}{}Run.\discretionary {-}{}{}py File Reference}{35}{section.4.1}
+\contentsline {section}{\numberline {4.2}chicken\discretionary {-}{}{}Run.\discretionary {-}{}{}py File Reference}{36}{section.4.2}
+\contentsline {section}{\numberline {4.3}dessert\discretionary {-}{}{}Run.\discretionary {-}{}{}py File Reference}{37}{section.4.3}
+\contentsline {section}{\numberline {4.4}drinks\discretionary {-}{}{}Run.\discretionary {-}{}{}py File Reference}{39}{section.4.4}
+\contentsline {section}{\numberline {4.5}fries\discretionary {-}{}{}Run.\discretionary {-}{}{}py File Reference}{40}{section.4.5}
+\contentsline {section}{\numberline {4.6}salad\discretionary {-}{}{}Run.\discretionary {-}{}{}py File Reference}{41}{section.4.6}
+\contentsline {chapter}{Index}{43}{section*.32}
