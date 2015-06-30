@@ -501,8 +501,8 @@ run1 = 0
 item = ""
 order = []
 work_dict = {}
-for key in chicken:
-    work_dict[chicken[key]["Name"]] = (chicken[key]["Calories"] / (chicken[key]["Price"] * 100)), (chicken[key]["Price"] * 100)
+for key in dessert:
+    work_dict[dessert[key]["Name"]] = (dessert[key]["Calories"] / (dessert[key]["Price"] * 100)), (dessert[key]["Price"] * 100)
     print
 #print work_dict
 while (budget >= minmoney):
