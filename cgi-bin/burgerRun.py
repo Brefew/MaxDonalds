@@ -550,7 +550,7 @@ print '''
 ## usr_money documentation
 #
 # A test value to apply to the code (displayed in cents)
-usr_money = 529
+usr_money = 100
 ## budget documentation
 #
 # Maintains the usr_money value
@@ -584,7 +584,8 @@ order = []
 # An empty dictionary that will handle the order[] list to be filled
 work_dict = {}
 for key in burger:
-    work_dict[burger[key]["Name"]] = (burger[key]["Calories"] / (burger[key]["Price"] * 100)), (burger[key]["Price"] * 100)
+    if (burger[key]["Price"] * 100) <= budget:
+        work_dict[burger[key]["Name"]] = (burger[key]["Calories"] / (burger[key]["Price"] * 100)), (burger[key]["Price"] * 100)
     print
 #print work_dict
 while (budget >= minmoney):
