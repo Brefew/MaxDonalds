@@ -492,21 +492,43 @@ print '''
 	
 '''
 #print document.getElementById("money").value;
-usr_money = 1000
+usr_money = 2000
 budget = usr_money
 minmoney = budget
+price = 0
 calpercent = 0
+run1 = 0
 item = ""
 order = []
 work_dict = {}
 for key in burger:
-    work_dict[burger[key]["Name"]] = (burger[key]["Calories"] / (burger[key]["Price"] * 100))
-    work_dict[burger[key]["Price"]] = burger[key]["Price"]
+    work_dict[burger[key]["Name"]] = (burger[key]["Calories"] / (burger[key]["Price"] * 100)), (burger[key]["Price"] * 100)
     print
 #print work_dict
 while (budget >= minmoney):
+    if work_dict == {}:
+        break
+    calpercent = 0
+    minmoney = budget 
+    if run1 == 1:
+        del work_dict[item]
+        order.append(item)
+       
     for key in work_dict:
-        if work_dict[key] > calpercent:
-            calpercent = work_dict[key]
+        if work_dict[key][1] <= minmoney:
+            minmoney = work_dict[key][1]
+        if work_dict[key][0] > calpercent:
+            calpercent = work_dict[key][0]
             item = key
-
+            price = work_dict[key][1]
+    budget -= price
+    run1 = 1
+#print order
+if budget >= 0:
+    order.append(item)
+else:
+    budget += price
+print "Your order will be: "
+for item in order: 
+    print item, ","
+print "and total to: $", (usr_money - budget)/100
