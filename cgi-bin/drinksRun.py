@@ -584,7 +584,8 @@ order = []
 # An empty dictionary that will handle the order[] list to be filled
 work_dict = {}
 for key in drink:
-    work_dict[drink[key]["Name"]] = (drink[key]["Calories"] / (drink[key]["Price"] * 100)), (drink[key]["Price"] * 100)
+    if (drink[key]["Price"] * 100) <= budget:
+        work_dict[drink[key]["Name"]] = (drink[key]["Calories"] / (drink[key]["Price"] * 100)), (drink[key]["Price"] * 100)
     print
 #print work_dict
 while (budget >= minmoney):
